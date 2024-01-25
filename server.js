@@ -7,6 +7,9 @@ const jwt = require('_helpers/jwt');
 const errorHandler = require('_helpers/error-handler');
 
 //comment line
+test 1
+test 2
+test 3
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
